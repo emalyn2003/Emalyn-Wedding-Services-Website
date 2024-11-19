@@ -1,0 +1,619 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Floating Header Styling */
+.floating-header {
+background-color: #ffffff;
+width: 90%; /* Adjust the width as desired (e.g., 90%, or a fixed pixel width like 1200px) */
+max-width: 1200px; /* Set a maximum width to keep it from stretching too wide on large screens */
+padding: 20px;
+border-radius: 40px;
+box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+position: fixed;
+top: 20px;
+left: 50%;
+transform: translateX(-50%);
+z-index: 1000;
+}
+
+/* Logo Styling */
+.logo-img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+font-size: 1.5rem;
+color: #333;
+text-decoration: none;
+display: flex;
+align-items: center;
+}
+
+/* Center Navbar Links */
+.navbar-nav {
+flex-grow: 1;
+justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: #333;
+font-size: 1.1rem;
+font-weight: 500;
+padding: 0 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+color: #ff7e5f;
+}
+
+/* Get Started Button Styling */
+.btn-get-started {
+background-color: #8ce99a;
+color: #fff;
+font-size: 1rem;
+font-weight: bold;
+border-radius: 20px;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+}
+
+.btn-get-started:hover {
+background-color: #66d08e;
+color: #fff;
+}
+
+
+.hero-section {
+    height: 100vh;
+    background-image: url('https://example.com/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+/* Features Section */
+.features-section {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.features-item {
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.features-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Gallery Section */
+.gallery-section {
+    padding: 80px 0;
+}
+
+.gallery-img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}
+
+/* Testimonials Section */
+.testimonial-section {
+    padding: 80px 0;
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+blockquote {
+    border-left: 4px solid #856404;
+    padding-left: 20px;
+}
+
+/* Wedding Wisdom Section */
+/* Section Styling */
+.wedding-wisdom {
+padding: 100px 0;
+background-color: #fef9f7;
+}
+
+/* Section Title */
+.mbr-section-title {
+text-align: center;
+font-weight: bold;
+font-size: 3.5rem; /* Increased font size */
+color: #fff; /* Changed to white */
+margin-bottom: 70px;
+text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Accordion Container */
+.accordion {
+max-width: 1000px; /* Increased width */
+margin: 0 auto;
+}
+
+/* Card Styling */
+.card {
+border: none;
+border-radius: 20px;
+margin-bottom: 30px; /* Added more spacing between cards */
+overflow: hidden;
+transition: transform 0.3s ease;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+/* Accordion Header */
+.card-header {
+background: linear-gradient(45deg, #ff7e5f, #feb47b);
+color: #fff; /* Changed to white */
+padding: 30px; /* Increased padding */
+font-size: 1.8rem; /* Increased font size */
+cursor: pointer;
+position: relative;
+border-radius: 20px;
+transition: background 0.3s ease;
+}
+
+.card-header:hover {
+background: linear-gradient(45deg, #feb47b, #ff7e5f);
+}
+
+/* Arrow Icon */
+.sign {
+float: right;
+font-size: 2rem; /* Increased icon size */
+color: #fff; /* Changed to white */
+transition: transform 0.3s ease;
+}
+
+.panel-title.collapsed .sign {
+transform: rotate(0deg);
+}
+
+.panel-title:not(.collapsed) .sign {
+transform: rotate(180deg);
+}
+
+/* Accordion Body */
+.panel-body {
+background-color: #333; /* Dark background for contrast */
+color: #fff; /* Changed to white */
+font-size: 1.4rem; /* Increased font size */
+padding: 30px; /* Increased padding */
+border-top: 3px solid #feb47b; /* Thicker border */
+border-radius: 0 0 20px 20px;
+box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.05) inset;
+animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animation for Body */
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+
+/* Panel Text */
+.panel-text {
+color: black; /* Changed to white */
+font-size: 1.3rem; /* Larger text size */
+line-height: 1.8;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+.mbr-section-title {
+font-size: 3rem;
+}
+
+.card-header {
+font-size: 1.5rem;
+}
+
+.panel-body {
+font-size: 1.2rem;
+padding: 20px;
+}
+}
+
+
+/* Partners Section */
+.partners-section {
+    padding: 80px 0;
+    color: #721c24;
+}   
+
+.partner-item {
+    border-radius: 10px;
+}
+
+/* Plans Section */
+.plans-section {
+background-color: transparent; /* Remove background color */
+padding: 50px 0; /* Add padding for spacing */
+}
+
+.plan-item {
+border: 1px solid #ddd; /* Add a light border */
+border-radius: 8px; /* Rounded corners */
+padding: 20px; /* Inner padding */
+text-align: center; /* Center text */
+transition: transform 0.3s; /* Add a transition effect */
+}
+
+.plan-item:hover {
+transform: scale(1.05); /* Slightly enlarge on hover */
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Add shadow on hover */
+}
+
+h1, h2 {
+font-size: 2.5rem; /* Adjust the size as needed */
+}
+
+
+h2 {
+color: #333; /* Change header color */
+margin-bottom: 30px; /* Space below the header */
+}
+
+h3 {
+color: #007BFF; /* Change plan titles color */
+}
+
+p {
+color: #555; /* Change paragraph text color */
+}
+
+/* Vendors Section */
+.vendors-section {
+background-color: #e9ecef; /* A different light background color */
+padding: 80px 0; /* Add padding for spacing */
+}
+
+.vendor-item {
+padding: 20px; /* Inner padding */
+border: none; /* Remove border */
+border-radius: 15px; /* Rounded corners */
+background-color: #ffffff; /* White background for vendor items */
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Add shadow for a card effect */
+transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effects */
+margin-bottom: 30px; /* Space between items */
+}
+
+.vendor-item:hover {
+transform: translateY(-5px); /* Slightly lift on hover */
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); /* Deeper shadow on hover */
+}
+
+h2 {
+color: #333; /* Change header color */
+margin-bottom: 30px; /* Space below the header */
+font-family: 'Arial', sans-serif; /* Different font for the heading */
+}
+
+.vendor-details {
+font-size: 1.2rem; /* Adjust the size as needed */
+}
+
+
+.vendor-item h3 {
+color: #dc3545; /* Different color for vendor titles */
+margin-bottom: 10px; /* Space below the title */
+font-size: 1.5rem; /* Larger font size for titles */
+}
+
+.vendor-item p {
+color: #555; /* Change paragraph text color */
+font-style: italic; /* Italicize the paragraph text */
+}
+
+.vendors-section .vendor-item {
+background-color: #ffffff;
+padding: 20px;
+border-radius: 15px;
+width: 100%;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+transform: rotate(-5deg); /* Tilt effect */
+position: relative;
+overflow: hidden;
+border: 3px solid transparent;
+transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.vendors-section .vendor-item:hover {
+transform: rotate(0deg) scale(1.05); /* Straighten and zoom on hover */
+border-color: #ff4c4c; /* Add glow border on hover */
+}
+
+.vendors-section .vendor-item img {
+width: 100%;
+border-radius: 10px;
+object-fit: cover;
+height: 200px;
+transition: transform 0.3s ease;
+}
+
+.vendors-section .vendor-item:hover img {
+transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.vendors-section h3 {
+font-size: 24px;
+font-weight: bold;
+margin-top: 15px;
+color: #333;
+}
+
+.vendors-section p {
+color: #777;
+}
+
+
+/* Team Section */
+.team-section {
+background-color: #f5f5f5;
+padding: 60px 0;
+}
+
+.team-member {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+width: 100%;
+height: auto;
+transition: transform 0.3s ease;
+}
+
+.team-member:hover img {
+transform: scale(1.05);
+}
+
+.card-body {
+background-color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+.card-title {
+font-size: 24px;
+font-weight: 600;
+color: #333;
+}
+
+.card-text {
+font-size: 18px;
+color: #777;
+}
+
+.btn {
+border-radius: 20px;
+padding: 10px 20px;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 600;
+}
+
+.btn-outline-primary {
+border: 2px solid #007bff;
+color: #007bff;
+background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+background-color: #007bff;
+color: #fff;
+}
+
+/* Footer Section */
+.footer-section {
+    background: #343a40;
+    color: white;
+    padding: 30px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+}
+
+.carousel-item {
+    height: 400px;
+    /* Set a fixed height for the carousel */
+}
+
+.carousel-item img {
+    height: 100%;
+    /* Make images fill the carousel height */
+    object-fit: cover;
+    /* Maintain aspect ratio */
+}
+
+.gallery10 {
+    background-color: #f8f9fa;
+    /* Light background color for visibility */
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+    /* Hide overflow for scrolling effect */
+}
+
+.gallery10 .loop-container .item {
+font-size: 70px; /* Increased text size to 70px */
+font-weight: bold; /* Optional: make the text bold */
+text-align: center; /* Optional: center align the text */
+}
+#features-61-utpEsXUGFb {
+min-height: 270px; /* Adjust this value for the height you want */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.loop-container {
+    white-space: nowrap;
+    /* Prevent wrapping of text */
+    animation: scroll 10s linear infinite;
+    /* Animation for scrolling */
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    /* Start off screen */
+    transform: translateY(-50%);
+    /* Center vertically */
+}
+
+.item {
+    display: inline-block;
+    /* Allow items to be inline */
+    font-size: 36px;
+    /* Increased font size */
+    padding: 0 50px;
+    /* Space between items */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+        /* Start position */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* End position */
+    }
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+    /* Customize border color */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;...");
+    /* Customize toggler icon */
+}
+
+/* Default size for larger screens */
+.mbr-section-title {
+    font-size: 3rem; /* Adjust this value as needed */
+}
+
+/* Smaller size for mobile devices */
+@media (max-width: 768px) {
+    .mbr-section-title {
+        font-size: 1.5rem; /* Smaller size for mobile */
+    }
+}
+
+.partner-img {
+border-radius: 10px; /* Adds rounded corners to each image */
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+}
+
+.partner-img:hover {
+transform: scale(1.05); /* Slightly enlarge the image when hovered */
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+}
+
+#galleryCarousel .carousel-inner {
+overflow: hidden;
+}
+
+#galleryCarousel .carousel-item {
+transition: transform 0.5s ease;
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+body {
+animation: fadeIn 1s ease-in-out; /* Add the animation to the body */
+}
+
+h2 {
+font-weight: bold;
+}
+
+.video-background {
+position: fixed; /* Fixes the video to the background */
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden; /* Hide overflow */
+z-index: -1; /* Position behind other content */
+}
+
+.video-iframe {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 100vw; /* Full width of the viewport */
+height: 100vh; /* Full height of the viewport */
+min-width: 100%; /* Ensure it covers the width */
+min-height: 100%; /* Ensure it covers the height */
+transform: translate(-50%, -50%); /* Center the iframe */
+}
+
+.video-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5); /* Optional: Add a dark overlay */
+z-index: 1; /* Position above the video */
+}

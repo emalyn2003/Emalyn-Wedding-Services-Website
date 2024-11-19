@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emalyn Wedding Services Hub</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+        
+
+    </style>
+    </head>
+
+    <body>
+
+        <header class="floating-header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <h1>Emalyn's</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item"><a class="nav-link"
+                                    href="#vendors">Vendors</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="#about">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="#gallery">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="#contact">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="#plans">Plans</a></li>
+                        </ul>
+                        <button onclick="location.href='#features'" class="btn"
+                            style="background-color: #5eb77e; color: #fff; border-radius: 20px; padding: 10px 20px; font-size: 18px;">Get
+                            Started</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero-section"
+            style="position: relative; overflow: hidden;">
+            <div class="video-background">
+                <video autoplay loop muted playsinline class="video-iframe"
+                    style="width: 100%; height: auto;">
+                    <source
+                        src="https://static.videezy.com/system/resources/previews/000/033/226/original/bride12.mp4"
+                        type="video/mp4">
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="hero-overlay"
+                style="position: relative; z-index: 2; text-align: center; color: white;">
+                <h1>Welcome to Your Dream Wedding</h1>
+                <p>Let us help you create unforgettable memories</p>
+                <a href="#features" class="btn btn-light">Explore Now</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section"
+            style="padding: 60px 0; background-color: white;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img
+                            src="https://media.istockphoto.com/id/1428318736/photo/water-pouring-thai-traditional-ceremony-engagement.webp?a=1&b=1&s=612x612&w=0&k=20&c=hax_8nxUCaJf0KtKBKdjKLrnPkr9fkJlDqKQ1arYnko="
+                            alt="About Us" class="img-fluid"
+                            style="border-radius: 15px;">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-4"
+                            style="font-size: 36px; font-weight: bold;">About
+                            Us</h2>
+                        <p style="font-size: 18px; color: #555;">At Emalyn, we
+                            believe that every journey should be unique and
+                            unforgettable. Our team of passionate professionals
+                            is dedicated to helping you achieve your goals, from
+                            personalized services to tailored experiences and
+                            everything in between. With years of experience in
+                            the industry, we are committed to bringing your
+                            vision to life and creating lasting moments of
+                            success and happiness.</p>
+                        <p style="font-size: 18px; color: #555;">Let us take the
+                            stress out of the process so you can focus on what
+                            truly matters: making your dreams come true. Join us
+                            on this amazing journey as we work with you to
+                            create a path that reflects your style, story, and
+                            aspirations.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section" data-aos="fade-up">
+            <div class="container">
+                <h2 class="text-center mb-5">Our Features</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="features-item">
+                            <i class="fas fa-heart fa-3x"></i>
+                            <h3>Personalized Planning</h3>
+                            <p>Tailored services to fit your unique vision.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="features-item">
+                            <i class="fas fa-camera fa-3x"></i>
+                            <h3>Stunning Photography</h3>
+                            <p>Capture every moment beautifully.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="features-item">
+                            <i class="fas fa-music fa-3x"></i>
+                            <h3>Live Entertainment</h3>
+                            <p>Make your celebration unforgettable with live
+                                music.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section" data-aos="fade-up"
+            style="max-width: 90%; margin: 0 auto;">
+            <div class="container">
+                <h2 class="text-center mb-5" style="color: white;">Gallery</h2>
+                <div id="galleryCarousel" class="carousel slide"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#galleryCarousel" data-slide-to="0"
+                            class="active"></li>
+                        <li data-target="#galleryCarousel"
+                            data-slide-to="1"></li>
+                        <li data-target="#galleryCarousel"
+                            data-slide-to="2"></li>
+                        <li data-target="#galleryCarousel"
+                            data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                                src="https://r.mobirisesite.com/873610/assets/images/photo-1551963319-13ff32a5acd1.jpeg"
+                                class="d-block w-100" alt="Gallery Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="https://media.istockphoto.com/id/1933373571/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.webp?a=1&b=1&s=612x612&w=0&k=20&c=heHfAIl83WFvffdtootCO_Ly1fkszKckuAWVs7IC5lQ="
+                                class="d-block w-100" alt="Gallery Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="https://media.istockphoto.com/id/1871920384/photo/happy-asian-couple-in-white-casual-clothes-enjoying-piggyback-ride-and-pointing-at-empty.jpg?s=612x612&w=0&k=20&c=2BMNJx8QcIOR2ZilDsPI-4se6k36dCB3GBLSPMlJ3S0="
+                                class="d-block w-100" alt="Gallery Image 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="https://media.istockphoto.com/id/2164276433/photo/a-happy-couple-the-groom-in-a-suit-and-the-bride-in-a-white-dress-pose-for-a-wedding-photo.jpg?s=612x612&w=0&k=20&c=E8r7TMd01H3PzPK8R2HEySg4OFr7-ryRxV8mag958_k="
+                                class="d-block w-100" alt="Gallery Image 4">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#galleryCarousel"
+                        role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#galleryCarousel"
+                        role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonial-section"
+            data-aos="fade-up"
+            style="min-height: 600px; padding: 60px 0; background-color: #f9f9f9;">
+            <div class="container">
+                <h2 class="text-center mb-5"
+                    style="font-size: 48px; font-weight: bold; color: #333;">What
+                    Our Clients Say</h2>
+                <div class="row">
+                    <!-- Testimonial 1 -->
+                    <div class="col-md-6 mb-4">
+                        <blockquote class="testimonial"
+                            style="font-size: 22px; font-style: italic; color: #555; line-height: 1.6; border-left: 4px solid #ccc; padding-left: 20px; background-color: #fff; border-radius: 10px; box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.1);">
+                            <p>"The best day of our lives! Everything was perfect!"</p>
+                            <footer
+                                style="font-size: 20px; font-weight: bold; color: #777;">-
+                                Sarah & John</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="col-md-6 mb-4">
+                        <blockquote class="testimonial"
+                            style="font-size: 22px; font-style: italic; color: #555; line-height: 1.6; border-left: 4px solid #ccc; padding-left: 20px; background-color: #fff; border-radius: 10px; box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.1);">
+                            <p>"Amazing service and beautiful arrangements!"</p>
+                            <footer
+                                style="font-size: 20px; font-weight: bold; color: #777;">-
+                                Michael & Precille</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="col-md-6 mb-4">
+                        <blockquote class="testimonial"
+                            style="font-size: 22px; font-style: italic; color: #555; line-height: 1.6; border-left: 4px solid #ccc; padding-left: 20px; background-color: #fff; border-radius: 10px; box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.1);">
+                            <p>"A truly unforgettable experience. Highly recommend!"</p>
+                            <footer
+                                style="font-size: 20px; font-weight: bold; color: #777;">-
+                                Randy & Marnelli</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial 4 -->
+                    <div class="col-md-6 mb-4">
+                        <blockquote class="testimonial"
+                            style="font-size: 22px; font-style: italic; color: #555; line-height: 1.6; border-left: 4px solid #ccc; padding-left: 20px; background-color: #fff; border-radius: 10px; box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.1);">
+                            <p>"Everything was organized and beautiful. Thank you!"</p>
+                            <footer
+                                style="font-size: 20px; font-weight: bold; color: #777;">-
+                                Bangsit & Alsem</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Additional Testimonial 5 -->
+                    <div class="col-md-6 mb-4">
+                        <blockquote class="testimonial"
+                            style="font-size: 22px; font-style: italic; color: #555; line-height: 1.6; border-left: 4px solid #ccc; padding-left: 20px; background-color: #fff; border-radius: 10px; box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.1);">
+                            <p>"A wonderful experience, everything went according to plan!"</p>
+                            <footer
+                                style="font-size: 20px; font-weight: bold; color: #777;">-
+                                Melino & Melina</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Additional Testimonial 6 -->
+                    <div class="col-md-6 mb-4">
+                        <blockquote class="testimonial"
+                            style="font-size: 22px; font-style: italic; color: #555; line-height: 1.6; border-left: 4px solid #ccc; padding-left: 20px; background-color: #fff; border-radius: 10px; box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.1);">
+                            <p>"The attention to detail was incredible. Truly exceeded our expectations!"</p>
+                            <footer
+                                style="font-size: 20px; font-weight: bold; color: #777;">-
+                                Saba & James</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery10 cid-utpEsXUGFb" id="gallery-12-utpEsXUGFb">
+            <div class="container-fluid">
+                <div id="galleryCarousel" class="carousel slide"
+                    data-bs-ride="carousel" data-bs-interval="2000">
+                    <!-- Auto-scroll every 2 seconds -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-3">
+                                    <img
+                                        src="https://r.mobirisesite.com/873610/assets/images/photo-1529636600939-9edeb1f9719f.jpeg"
+                                        class="d-block w-100" alt>
+                                </div>
+                                <div class="col-md-3">
+                                    <img
+                                        src="https://r.mobirisesite.com/873610/assets/images/photo-1657206117915-c8558eed0a1d.jpeg"
+                                        class="d-block w-100" alt>
+                                </div>
+                                <div class="col-md-3">
+                                    <img
+                                        src="https://r.mobirisesite.com/873610/assets/images/photo-1497414826197-4166f61a8e14.jpeg"
+                                        class="d-block w-100" alt>
+                                </div>
+                                <div class="col-md-3">
+                                    <img
+                                        src="https://r.mobirisesite.com/873610/assets/images/photo-1551963319-13ff32a5acd1.jpeg"
+                                        class="d-block w-100" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-3">
+                                    <img
+                                        src="https://r.mobirisesite.com/873610/assets/images/photo-1529634597503-139d3726fed5.jpeg"
+                                        class="d-block w-100" alt>
+                                </div>
+                                <div class="col-md-3">
+                                    <img
+                                        src="https://r.mobirisesite.com/873610/assets/images/photo-1529634806980-85c3dd6d34ac.jpeg"
+                                        class="d-block w-100" alt>
+                                </div>
+                                <div class="col-md-3">
+                                    <img
+                                        src="https://r.mobirisesite.com/873610/assets/images/photo-1529635859953-7f7b2f931435.jpeg"
+                                        class="d-block w-100" alt>
+                                </div>
+                                <div class="col-md-3">
+                                    <img
+                                        src="https://r.mobirisesite.com/873610/assets/images/photo-1529634897274-69e6ac04f315.jpeg"
+                                        class="d-block w-100" alt>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-bs-version="5.1" class="list1 cid-utpEsXP7si"
+            id="wisdom-1-utpEsXP7si" style="padding: 80px 0;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-12 col-lg-10 m-auto">
+                        <div class="content">
+                            <div class="container">
+                                <div class="row justify-content-center mb-5">
+                                    <div class="col-12 content-head">
+                                        <div class="mbr-section-head">
+                                            <h4
+                                                class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"
+                                                style="color: white;">
+                                                <strong>Wedding Wisdom
+                                                    Unleashed</strong>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="bootstrap-accordion_4"
+                                class="panel-group accordionStyles accordion"
+                                role="tablist"
+                                aria-multiselectable="true">
+                                <div class="card"
+                                    style="border: 2px solid #000; border-radius: 10px; margin-bottom: 20px;">
+                                    <div class="card-header" role="tab"
+                                        id="headingOne"
+                                        style="background-color: transparent; color: black; border-radius: 10px;">
+                                        <a role="button"
+                                            class="panel-title collapsed text-light"
+                                            style="text-decoration: none;"
+                                            data-toggle="collapse"
+                                            data-bs-toggle="collapse"
+                                            href="#collapse1_4"
+                                            aria-expanded="false"
+                                            aria-controls="collapse1">
+                                            <h6
+                                                class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5 text-light">What
+                                                if
+                                                I hate traditional
+                                                weddings?</h6>
+                                            <span
+                                                class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        </a>
+                                    </div>
+                                    <div id="collapse1_4"
+                                        class="panel-collapse noScroll collapse"
+                                        role="tabpanel"
+                                        aria-labelledby="headingOne"
+                                        data-parent="#bootstrap-accordion_4">
+                                        <div class="panel-body"
+                                            style="background-color: transparent; border-radius: 0 0 10px 10px; padding: 20px;">
+                                            <p
+                                                class="mbr-fonts-style panel-text display-7">Who
+                                                says you have to follow the
+                                                rules? Go wild!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="border: 2px solid #000; border-radius: 10px; margin-bottom: 20px;">
+                                    <div class="card-header" role="tab"
+                                        id="headingTwo"
+                                        style="background-color: transparent; color: black; border-radius: 10px;">
+                                        <a role="button"
+                                            class="panel-title collapsed text-light"
+                                            style="text-decoration: none;"
+                                            data-toggle="collapse"
+                                            data-bs-toggle="collapse"
+                                            href="#collapse2_4"
+                                            aria-expanded="false"
+                                            aria-controls="collapse2">
+                                            <h6
+                                                class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">How
+                                                do
+                                                I choose a venue?</h6>
+                                            <span
+                                                class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        </a>
+                                    </div>
+                                    <div id="collapse2_4"
+                                        class="panel-collapse noScroll collapse text-light"
+                                        style="text-decoration: none;"
+                                        role="tabpanel"
+                                        aria-labelledby="headingTwo"
+                                        data-parent="#bootstrap-accordion_4">
+                                        <div class="panel-body"
+                                            style="background-color: transparent; border-radius: 0 0 10px 10px; padding: 20px;">
+                                            <p
+                                                class="mbr-fonts-style panel-text display-7">Pick
+                                                one that screams 'us'!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="border: 2px solid #000; border-radius: 10px; margin-bottom: 20px;">
+                                    <div class="card-header" role="tab"
+                                        id="headingThree"
+                                        style="background-color: transparent; color: black; border-radius: 10px;">
+                                        <a role="button"
+                                            class="panel-title collapsed text-light"
+                                            style="text-decoration: none;"
+                                            data-toggle="collapse"
+                                            data-bs-toggle="collapse"
+                                            href="#collapse3_4"
+                                            aria-expanded="false"
+                                            aria-controls="collapse3">
+                                            <h6
+                                                class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Can
+                                                I
+                                                have a themed wedding?</h6>
+                                            <span
+                                                class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        </a>
+                                    </div>
+                                    <div id="collapse3_4"
+                                        class="panel-collapse noScroll collapse text-light"
+                                        style="text-decoration: none;"
+                                        role="tabpanel"
+                                        aria-labelledby="headingThree "
+                                        data-parent="#bootstrap-accordion_4">
+                                        <div class="panel-body"
+                                            style="background-color: transparent; border-radius: 0 0 10px 10px; padding: 20px;">
+                                            <p
+                                                class="mbr-fonts-style panel-text display-7">Absolutely!
+                                                Unicorns, anyone?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="border: 2px solid #000; border-radius: 10px; margin-bottom: 20px;">
+                                    <div class="card-header" role="tab"
+                                        id="headingFour"
+                                        style="background-color: transparent; color: black; border-radius: 10px;">
+                                        <a role="button"
+                                            class="panel-title collapsed text-light"
+                                            style="text-decoration: none;"
+                                            data-toggle="collapse"
+                                            data-bs-toggle="collapse"
+                                            href="#collapse4_4"
+                                            aria-expanded="false"
+                                            aria-controls="collapse4">
+                                            <h6
+                                                class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What
+                                                about food options?</h6>
+                                            <span
+                                                class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        </a>
+                                    </div>
+                                    <div id="collapse4_4"
+                                        class="panel-collapse noScroll collapse text-light"
+                                        style="text-decoration: none;"
+                                        role="tabpanel"
+                                        aria-labelledby="headingFour"
+                                        data-parent="#bootstrap-accordion_4">
+                                        <div class="panel-body"
+                                            style="background-color: transparent; border-radius: 0 0 10px 10px; padding: 20px;">
+                                            <p
+                                                class="mbr-fonts-style panel-text display-7">Tacos,
+                                                sushi, or a BBQ feast?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="border: 2px solid #000; border-radius: 10px; margin-bottom: 20px;">
+                                    <div class="card-header" role="tab"
+                                        id="headingFive"
+                                        style="background-color: transparent; color: black; border-radius: 10px;">
+                                        <a role="button"
+                                            class="panel-title collapsed text-light"
+                                            style="text-decoration: none;"
+                                            data-toggle="collapse"
+                                            data-bs-toggle="collapse"
+                                            href="#collapse5_4"
+                                            aria-expanded="false"
+                                            aria-controls="collapse5">
+                                            <h6
+                                                class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">How
+                                                to
+                                                avoid wedding stress?</h6>
+                                            <span
+                                                class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        </a>
+                                    </div>
+                                    <div id="collapse5_4"
+                                        class="panel-collapse noScroll collapse text-light"
+                                        style="text-decoration: none;"
+                                        role="tabpanel"
+                                        aria-labelledby="headingFive"
+                                        data-parent="#bootstrap-accordion_4">
+                                        <div class="panel-body"
+                                            style="background-color: transparent; border-radius: 0 0 10px 10px; padding: 20px;">
+                                            <p
+                                                class="mbr-fonts-style panel-text display-7">Breathe,
+                                                laugh, and delegate
+                                                everything!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-bs-version="5.1" class="gallery10 cid-utpEsXUGFb"
+            id="features-61-utpEsXUGFb">
+            <div class="container-fluid">
+                <div class="loop-container">
+                    <div class="item"
+                        data-linewords="Expert Wedding Planners * Stunning Venues * Delicious Catering * Unique Decor Ideas * Photography Magic * Honeymoon Planning *">
+                        ☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️
+                        Comfort ☁️ Support 24/7 ☁️ Vibes
+                    </div>
+                    <div class="item"
+                        data-linewords="Expert Wedding Planners * Stunning Venues * Delicious Catering * Unique Decor Ideas * Photography Magic * Honeymoon Planning *">
+                        ☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️
+                        Comfort ☁️ Support 24/7 ☁️ Vibes
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="plans" class="plans-section" data-aos="fade-up"
+            style="background-color: #fef6f3; padding: 70px 0;">
+            <div class="container">
+                <h2 class="text-center"
+                    style="font-size: 48px; font-weight: bold; margin-bottom: 40px;">Choose
+                    Your Plan</h2>
+                <div class="row d-flex justify-content-center">
+                    <!-- Plan 1 -->
+                    <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                        <div class="plan-item flex-fill d-flex flex-column"
+                            style="background-color: #a3e4b2; padding: 30px; border-radius: 15px; text-align: center; height: 450px;">
+                            <h3 style="font-size: 28px; font-weight: bold;">The
+                                Basic Bliss</h3>
+                            <p
+                                style="font-size: 24px; color: #333;">₱280.00/mo</p>
+                            <p style="font-size: 18px; color: #333;">Perfect for
+                                couples who just want a simple and intimate
+                                wedding experience!</p>
+                            <button class="btn mt-auto"
+                                style="background-color: #5eb77e; color: #fff; border-radius: 20px; padding: 15px 25px; font-size: 18px;">Choose
+                                This Plan</button>
+                        </div>
+                    </div>
+
+                    <!-- Plan 2 -->
+                    <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                        <div class="plan-item flex-fill d-flex flex-column"
+                            style="background-color: #a3e4b2; padding: 30px; border-radius: 15px; text-align: center; height: 450px;">
+                            <h3 style="font-size: 28px; font-weight: bold;">The
+                                Dreamy Delight</h3>
+                            <p
+                                style="font-size: 24px; color: #333;">₱1,120.00/mo</p>
+                            <p style="font-size: 18px; color: #333;">Includes
+                                everything from Basic Bliss, plus a free
+                                consultation with a professional wedding
+                                planner!</p>
+                            <button class="btn mt-auto"
+                                style="background-color: #5eb77e; color: #fff; border-radius: 20px; padding: 15px 25px; font-size: 18px;">Choose
+                                This Plan</button>
+                        </div>
+                    </div>
+
+                    <!-- Plan 3 -->
+                    <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                        <div class="plan-item flex-fill d-flex flex-column"
+                            style="background-color: #a3e4b2; padding: 30px; border-radius: 15px; text-align: center; height: 450px;">
+                            <h3 style="font-size: 28px; font-weight: bold;">The
+                                Lavish Love</h3>
+                            <p
+                                style="font-size: 24px; color: #333;">₱2,800.00/mo</p>
+                            <p style="font-size: 18px; color: #333;">For couples
+                                who want a grand celebration! Includes premium
+                                services and a personal wedding stylist!</p>
+                            <button class="btn mt-auto"
+                                style="background-color: #5eb77e; color: #fff; border-radius: 20px; padding: 15px 25px; font-size: 18px;">Choose
+                                This Plan</button>
+                        </div>
+                    </div>
+
+                    <!-- Plan 4 -->
+                    <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                        <div class="plan-item flex-fill d-flex flex-column"
+                            style="background-color: #a3e4b2; padding: 30px; border-radius: 15px; text-align: center; height: 450px;">
+                            <h3 style="font-size: 28px; font-weight: bold;">The
+                                Ultimate Extravaganza</h3>
+                            <p
+                                style="font-size: 24px; color: #333;">₱5,600.00/mo</p>
+                            <p style="font-size: 18px; color: #333;">The best
+                                package for a luxurious wedding experience!
+                                All-inclusive services, plus honeymoon
+                                planning!</p>
+                            <button class="btn mt-auto"
+                                style="background-color: #5eb77e; color: #fff; border-radius: 20px; padding: 15px 25px; font-size: 18px;">Choose
+                                This Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vendors" class="vendors-section" data-aos="fade-up"
+            style="padding: 50px 0;">
+            <div class="container">
+                <h2 class="text-center"
+                    style="font-size: 36px; font-weight: bold; margin-bottom: 30px;">Top
+                    Wedding Vendors</h2>
+                <div class="row d-flex justify-content-center">
+                    <!-- Vendor 1 -->
+                    <div
+                        class="col-lg-3 col-md-6 mb-4 d-flex justify-content-center">
+                        <div class="vendor-item text-center"
+                            style="background-color: #ffffff; padding: 20px; border-radius: 15px; width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img
+                                src="https://media.istockphoto.com/id/1533529011/photo/beauty-shot-of-beautiful-black-woman-in-monochromatic-pink-stock-photo-copy-space.jpg?s=612x612&w=0&k=20&c=C4BOSMADHx-e9zvrgZblUweMkol4tceYP_reSr_10t8="
+                                alt="Florist"
+                                style="width: 100%; border-radius: 15px; object-fit: cover; height: 200px;">
+                            <h3
+                                style="font-size: 24px; font-weight: bold; margin-top: 15px;">Emily
+                                Rose</h3>
+                            <p style="color: #333;">Event Planner</p>
+                        </div>
+                    </div>
+
+                    <!-- Vendor 2 -->
+                    <div
+                        class="col-lg-3 col-md-6 mb-4 d-flex justify-content-center">
+                        <div class="vendor-item text-center"
+                            style="background-color: #ffffff; padding: 20px; border-radius: 15px; width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img
+                                src="https://media.istockphoto.com/id/1336110848/photo/trendy-young-man-in-sunglasses-posing-near-the-wall-on-the-street-on-a-summer-day.jpg?s=612x612&w=0&k=20&c=VZoSgcS7puEIZLQ9E0awOI0fcbRyba8TRUWv0U7wHGM="
+                                alt="Caterer"
+                                style="width: 100%; border-radius: 15px; object-fit: cover; height: 200px;">
+                            <h3
+                                style="font-size: 24px; font-weight: bold; margin-top: 15px;">Jake
+                                Smith</h3>
+                            <p style="color: #333;">Catering Guru</p>
+                        </div>
+                    </div>
+
+                    <!-- Vendor 3 -->
+                    <div
+                        class="col-lg-3 col-md-6 mb-4 d-flex justify-content-center">
+                        <div class="vendor-item text-center"
+                            style="background-color: #ffffff; padding: 20px; border-radius: 15px; width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img
+                                src="https://media.istockphoto.com/id/1311529657/photo/beautiful-emotional-woman-wearing-shiny-dress.jpg?s=612x612&w=0&k=20&c=cAx7xMy9ErQokfW-R5hXejRsNAGd4chWsraaqWLCbk4="
+                                alt="Photographer"
+                                style="width: 100%; border-radius: 15px; object-fit: cover; height: 200px;">
+                            <h3
+                                style="font-size: 24px; font-weight: bold; margin-top: 15px;">Sophia
+                                Lee</h3>
+                            <p style="color: #333;">Floral Designer</p>
+                        </div>
+                    </div>
+
+                    <!-- Vendor 4 -->
+                    <div
+                        class="col-lg-3 col-md-6 mb-4 d-flex justify-content-center">
+                        <div class="vendor-item text-center"
+                            style="background-color: #ffffff; padding: 20px; border-radius: 15px; width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img
+                                src="https://media.istockphoto.com/id/1733124463/photo/stylish-dark-skinned-man-wearing-a-yellow-blazer.jpg?s=612x612&w=0&k=20&c=Cym3apJurmcvuBIE-Hrwg0J_7p32V3I2XncZcYuw7i4="
+                                alt="DJ"
+                                style="width: 100%; border-radius: 15px; object-fit: cover; height: 200px;">
+                            <h3
+                                style="font-size: 24px; font-weight: bold; margin-top: 15px;">Liam
+                                Brown</h3>
+                            <p style="color: #333;">DJ Extraordinaire</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team-section" data-aos="fade-up"
+            style="background-color: #f5f5f5; padding: 60px 0;">
+            <div class="container">
+                <h2 class="text-center mb-5"
+                    style="font-size: 36px; font-weight: 700; color: #333;">Meet
+                    Our Team</h2>
+                <div class="row">
+                    <!-- Team Member 1 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div
+                            class="team-member card shadow-sm border-0 rounded-lg overflow-hidden">
+                            <img
+                                src="https://media.istockphoto.com/id/1733150722/photo/stylishly-dressed-dark-skinned-man-wearing-a-yellow-jacket-and-wild-animal-fur.jpg?s=612x612&w=0&k=20&c=1mcko-c5ejw8k4GOffZsMZ9rZZzt245KZmRhtqr1nEk="
+                                class="card-img-top" alt="Jane Doe">
+                            <div class="card-body text-center">
+                                <h3 class="card-title"
+                                    style="font-size: 24px; font-weight: 600; color: #333;">Atting
+                                    Alsem</h3>
+                                <p class="card-text"
+                                    style="font-size: 18px; color: #777;">Wedding
+                                    Planner</p>
+                                <a href="mailto:jane@example.com"
+                                    class="btn btn-outline-primary mt-3"
+                                    style="border-radius: 20px;">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 2 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div
+                            class="team-member card shadow-sm border-0 rounded-lg overflow-hidden">
+                            <img
+                                src="https://media.istockphoto.com/id/694450186/photo/sometimes-the-streets-of-the-city-are-my-inspiration.jpg?s=612x612&w=0&k=20&c=JgGSgX8AA3pBMJ4w2YWDZvCQPmmNoA_5wcLIsXu63Yg="
+                                class="card-img-top" alt="John Smith">
+                            <div class="card-body text-center">
+                                <h3 class="card-title"
+                                    style="font-size: 24px; font-weight: 600; color: #333;">Tomas
+                                    Morato</h3>
+                                <p class="card-text"
+                                    style="font-size: 18px; color: #777;">Event
+                                    Coordinator</p>
+                                <a href="mailto:john@example.com"
+                                    class="btn btn-outline-primary mt-3"
+                                    style="border-radius: 20px;">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 3 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div
+                            class="team-member card shadow-sm border-0 rounded-lg overflow-hidden">
+                            <img
+                                src="https://media.istockphoto.com/id/2160576182/photo/a-young-african-american-man-poses-in-a-stylish-blazer-adorned-with-flowers-around-his-neck.jpg?s=612x612&w=0&k=20&c=AosRkgszHuqC5giwP33Kuf2dkt0W6e36A-mPwEdFqX4="
+                                class="card-img-top" alt="Emily Johnson">
+                            <div class="card-body text-center">
+                                <h3 class="card-title"
+                                    style="font-size: 24px; font-weight: 600; color: #333;">Jacklord
+                                    Angdod</h3>
+                                <p class="card-text"
+                                    style="font-size: 18px; color: #777;">Designer</p>
+                                <a href="mailto:emily@example.com"
+                                    class="btn btn-outline-primary mt-3"
+                                    style="border-radius: 20px;">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section"
+            style="background-color: #f8f9fa; padding: 60px 0;">
+            <div class="container">
+                <h2 class="text-center mb-5"
+                    style="font-size: 36px; font-weight: bold; color: #333;">Get
+                    in Touch</h2>
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="contact-info"
+                            style="background-color: #ffffff; padding: 30px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <h3
+                                style="font-size: 28px; font-weight: bold; color: #333;">Contact
+                                Details</h3>
+                            <p
+                                style="font-size: 18px; color: #555;"><strong>Email:</strong>
+                                <a href="mailto:info@example.com"
+                                    style="color: #007bff;">emalyn@yahoo.com</a></p>
+                            <p
+                                style="font-size: 18px; color: #555;"><strong>Phone:</strong>
+                                <a href="tel:+1234567890"
+                                    style="color: #007bff;">099999999999</a></p>
+                            <p
+                                style="font-size: 18px; color: #555;"><strong>Address:</strong>
+                                Puro, Magsingal, Ilocos Sur</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <form action="submit_form.php" method="POST"
+                            style="background-color: #ffffff; padding: 30px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <h3
+                                style="font-size: 28px; font-weight: bold; color: #333;">Send
+                                Us a Message</h3>
+                            <div class="form-group">
+                                <label for="name"
+                                    style="font-size: 16px; color: #555;">Your
+                                    Name</label>
+                                <input type="text" class="form-control"
+                                    id="name" name="name" required
+                                    style="border-radius: 10px;">
+                            </div>
+                            <div class="form-group">
+                                <label for="email"
+                                    style="font-size: 16px; color: #555;">Your
+                                    Email</label>
+                                <input type="email" class="form-control"
+                                    id="email" name="email" required
+                                    style="border-radius: 10px;">
+                            </div>
+                            <div class="form-group">
+                                <label for="message"
+                                    style="font-size: 16px; color: #555;">Your
+                                    Message</label>
+                                <textarea class="form-control" id="message"
+                                    name="message" rows="4" required
+                                    style="border-radius: 10px;"></textarea>
+                            </div>
+                            <button type="submit" class="btn"
+                                style="background-color: #5eb77e; color: #fff; border-radius: 20px; padding: 10px 20px; font-size: 18px;">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-section">
+            <div class="container text-center">
+                <p style="color: white;">&copy; Emalyn's Wedding Services Hub.
+                    All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+        <script>
+        AOS.init();
+window.addEventListener('load', function () {
+    document.body.classList.add('loaded');
+});
+
+const carousel = new bootstrap.Carousel(document.getElementById('galleryCarousel'), {
+    interval: 2000, // Ensures the carousel auto-scrolls every 2 seconds
+    ride: 'carousel'
+});
+
+let scrollPosition = 0;
+const scrollSpeed = 100; // Adjust the scroll speed to control how quickly the carousel moves
+const step = 5; // Number of pixels to scroll before advancing the carousel
+
+window.addEventListener('scroll', function () {
+    // Get the current scroll position
+    const currentScrollPosition = window.scrollY;
+
+    // If the user scrolls enough, move the carousel forward
+    if (currentScrollPosition > scrollPosition + step) {
+        carousel.next();
+        scrollPosition = currentScrollPosition; // Update scroll position
+    } else if (currentScrollPosition < scrollPosition - step) {
+        carousel.prev();
+        scrollPosition = currentScrollPosition; // Update scroll position
+    }
+});
+
+window.onload = function() {
+        document.body.classList.add('fade-in');
+    };
+
+    document.querySelector('.play-button').addEventListener('click', function() {
+        this.style.display = 'none'; // Hide the play button
+        document.querySelector('iframe').src += ''; // Restart the video
+    });
+    </script>
+    </body>
+
+</html>
